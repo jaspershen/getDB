@@ -8,6 +8,13 @@ import numpy as np
 
 
 def getMetabolite(database="HMDB", ID="HMDB0000002"):
+
+    '''
+    :param database: Only for HMDB.
+    :param ID: HMDB ID for one metabolite.
+    :return: A dict object.
+    '''
+
     if database == "HMDB":
         url = "http://www.hmdb.ca/metabolites"
     else:
@@ -123,21 +130,6 @@ def getMetabolite(database="HMDB", ID="HMDB0000002"):
     result = dict(zip(item_name, item_value))
 
     return(result)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

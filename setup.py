@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(name='getDB',
-      version='0.0.3',
+      version='0.0.4',
       description="This module can be used to download HMDB and KEGG database.",
       license='MIT',
       author='Xiaotao Shen',
