@@ -1,6 +1,6 @@
 ### getDB module
 
-This module is used to download comment databases, such as HMDB, KEGG. Now verion0.0.1 only support 
+This module is used to download databases, such as HMDB, KEGG. Now verion0.0.1 only support 
 HMDB.
 
 
